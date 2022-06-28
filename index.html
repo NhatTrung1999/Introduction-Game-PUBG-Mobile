@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/responsive.css" />
     <title>Intro Page PUBG MOBILE</title>
   </head>
   <body>
@@ -27,7 +27,9 @@
 
     <header id="header">
       <div class="header-wrapper">
-        <div class="avatar"></div>
+        <div class="avatar">
+          <img src="./images/user.png" alt="">
+        </div>
         <div class="username">use name</div>
       </div>
     </header>
@@ -153,9 +155,20 @@
           </ul>
         </div>
         <div class="address">Ho Chi Minh City</div>
-        <div class="google-map"></div>
+        <div id="google-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15676.648591419287!2d106.6690653!3d10.7988903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe5282efb6f4efac3!2sS3Corp.!5e0!3m2!1svi!2s!4v1656411430013!5m2!1svi!2s"
+            width="115"
+            height="115"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </footer>
     <script src="./js/main.js"></script>
+
   </body>
 </html>

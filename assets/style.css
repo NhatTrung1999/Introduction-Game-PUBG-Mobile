@@ -31,9 +31,15 @@ body {
   position: absolute;
   width: 63px;
   height: 63px;
-  background-color: #ffffff;
   left: 1300px;
   top: 19px;
+  border-radius: 50%;
+}
+
+.avatar > img {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
 }
 
@@ -248,11 +254,11 @@ body {
   margin-right: 438px;
 }
 
-.google-map {
+#google-map {
   width: 115px;
   height: 115px;
-  background-color: #e9e9e9;
   margin-top: 35px;
+  overflow: hidden;
 }
 
 /* Popup */
