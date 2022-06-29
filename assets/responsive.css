@@ -16,6 +16,7 @@
 
   .content-intro-game {
     margin-right: 0;
+    margin-bottom: 67px;
   }
   
   .content-header {
@@ -27,8 +28,8 @@
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    text-align: justify;
     font-size: 20px;
+    height: auto;
   }
 
   .footer {
@@ -44,6 +45,11 @@
     /* margin-bottom: 30px; */
   }
 
+  .content-list-configuration {
+    height: auto;
+    margin-bottom: 98px;
+  }
+
   .content-configuration > .content-header {
     margin-left: 20px;
   }
@@ -56,6 +62,7 @@
 
   .btn-trailer {
     margin-top: 0;
+    margin-bottom: 36px;
   }
 
   .content-footer {
@@ -63,12 +70,9 @@
     flex-direction: column;
   }
 
-  .mail-phone {
+  .mail-phone, .address {
     margin-left: 20px;
-  }
-
-  .address {
-    margin-left: 20px;
+    font-size: 24px;
   }
 
   #google-map {
@@ -77,16 +81,16 @@
   }
 
   .popup {
-    width: 520px;
+    width: 377px;
   }
 
   .popup > video {
-    width: 520px;
+    width: 377px;
     height: auto;
   }
 }
 
-@media (max-width: 748px) {
+/* @media (max-width: 748px) {
   .content-wrap-img {
     margin-top: 0;
     flex-wrap: wrap;
@@ -202,4 +206,4 @@
   .address {
     margin-right: 40px;
   }
-}
+} */
