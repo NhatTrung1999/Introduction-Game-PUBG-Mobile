@@ -101,7 +101,6 @@ body {
 .content-main-img {
   width: 159px;
   height: 100px;
-  background-size: cover;
   margin: 0 10px;
   cursor: pointer;
 }
@@ -144,7 +143,7 @@ body {
 
 .content-list-configuration {
   max-width: 611px;
-  height: 389px;
+  height: 50%;
   font-style: 400;
   font-size: 24px;
   line-height: 28px;
@@ -279,7 +278,7 @@ body {
   width: 115px;
   height: 115px;
   margin-top: 35px;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-bottom: 41px;
 }
 
@@ -318,6 +317,7 @@ body {
   cursor: default;
   color: white;
   position: absolute;
+  z-index: 5;
 }
 
 /* .rounded {
